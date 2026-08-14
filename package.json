@@ -1,0 +1,16 @@
+{
+  "name": "github-mcp-worker",
+  "version": "1.0.0",
+  "description": "GitHub MCP server on Cloudflare",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@cloudflare/workers-mcp": "^0.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
