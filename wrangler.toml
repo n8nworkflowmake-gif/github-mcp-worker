@@ -1,6 +1,4 @@
-name = "github-mcp"
+name = "github-mcp-worker"
 main = "src/index.js"
 compatibility_date = "2025-01-24"
-
-[vars]
-GITHUB_TOKEN = "YOUR_TOKEN_HERE"
+compatibility_flags = ["nodejs_compat"]
